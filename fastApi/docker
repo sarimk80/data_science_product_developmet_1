@@ -1,0 +1,4 @@
+FROM ubuntu:18.04
+COPY . /FASTAPI
+RUN make /FASTAPI
+CMD python /FASTAPI/main.py
